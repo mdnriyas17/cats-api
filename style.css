@@ -1,0 +1,43 @@
+html,
+body {
+    margin: 0px auto;
+    width: 100%;
+    background-image: linear-gradient(to right, black, aqua);
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.cats-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 90rem;
+  min-height: 250px;
+  background-image: linear-gradient(to top, yellow, green);
+  border-radius: 10px;
+  margin: 80px;
+  justify-content: center;
+  color: blue;
+  }
+
+h1, h2, h3, h4, h5, h6, p {
+  display: flex;
+  justify-content: center;
+}
+
+.card-text {
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+}
